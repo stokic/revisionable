@@ -18,7 +18,8 @@ class Revision extends Eloquent
     /**
      * @var string
      */
-    public $table = 'revisions';
+    public $table         = config('revisionable.revisions_table_name');
+    protected $connection = config('revisionable.revisions_db_connection');
 
     /**
      * @var array

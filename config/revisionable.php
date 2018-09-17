@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: sasha
- * Date: 17/09/2018
- * Time: 14:44
- */
+
+return array(
+    'revisions_table_name'    => 'revisions',
+    'revisions_db_connection' => 'database.connections.default',
+);
